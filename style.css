@@ -1,8 +1,11 @@
-.header {
-  background-attachment: fixed;
-  background-color: firebrick;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #68b1f5;
 }
 
-body {
-  background-color: alrgb(0, 117, 219);
+.header {
+  font-family: Arial, sans-serif;
+  background-color: #68b1f5;
+  font-size: large;
+  position: fixed;
 }
