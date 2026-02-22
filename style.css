@@ -13,7 +13,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 60px; /* explicit height */
+  height: 60px;
   line-height: 15px;
   z-index: 1000;
 }
@@ -90,8 +90,8 @@ footer {
 }
 .Cv {
   display: flex;
-  flex-direction: column; /* forces children to stack vertically */
-  align-items: center; /* centers each child horizontally */
+  flex-direction: column;
+  align-items: center;
   padding: 20px -20px;
 }
 
@@ -126,13 +126,94 @@ footer {
   box-sizing: border-box;
 }
 .Cv a {
-  width: 50%; /* occupy exactly half the viewport */
-  text-align: center; /* center the lines inside */
+  width: 50%;
+  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2rem; /* valid unit */
+  font-size: 2rem;
   color: #fff;
   background-color: rgba(90, 90, 90, 0);
   box-sizing: border-box;
   padding: 0 1rem;
   margin: 10px auto;
+}
+
+.Profile {
+  display: flex; /* side‑by‑side by default */
+  flex-wrap: wrap; /* allow children to move to the next line */
+  align-items: flex-start;
+  gap: 2rem; /* space between the two blocks */
+  padding: 20px;
+}
+
+.ProfilePic {
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 1rem;
+  flex: 0 1 200px;
+  max-width: 300px;
+  text-align: center;
+  margin-left: clamp(1.5rem, 10vw, 15.5rem);
+}
+
+.AboutMe {
+  flex: 1 1 300px;
+  max-width: 100%;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1.5rem;
+  border: 1.2px solid #4e4e4e;
+  border-radius: 81px;
+  box-sizing: border-box;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-right: clamp(1.5rem, 15vw, 18.5rem);
+}
+
+.img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;
+}
+.AboutMe .imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutMe h1 {
+  width: 100%;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(90, 90, 90, 0);
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin: 10px auto;
+}
+
+.AboutMe h2 {
+  width: 100%;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(90, 90, 90, 0);
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin: 10px auto;
+}
+
+.rat {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
