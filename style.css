@@ -1,12 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #68b1f5;
+  background-color: #181a1d;
   padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 .header {
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #68b1f5;
+  background-color: #181a1d;
   font-size: large;
   position: fixed;
   top: 0;
@@ -67,10 +68,71 @@ footer {
 
 .Credits {
   width: 100%;
+  text-align: center;
   max-width: 800px;
   margin: 20px auto;
   padding: 1.5rem;
-  background-color: #5a5a5a;
-  color: #fff;
+  background-color: #5a5a5a00;
+  color: #ffffff;
   box-sizing: border-box;
+}
+.Credits h1.title {
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 7dvb;
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 1.5rem;
+  background-color: #5a5a5a00;
+  color: #04aa6d;
+  box-sizing: border-box;
+}
+.Cv {
+  display: flex;
+  flex-direction: column; /* forces children to stack vertically */
+  align-items: center; /* centers each child horizontally */
+  padding: 20px -20px;
+}
+
+.Cv h1 {
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 5dvb;
+  text-align: center;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 1.5rem;
+  background-color: #5a5a5a00;
+  color: #04aa6d;
+  box-sizing: border-box;
+}
+.Cv h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2dvb;
+  text-align: center;
+  padding: -3.5rem;
+  background-color: #5a5a5a00;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+.Cv h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2dvb;
+  text-align: center;
+  padding: -3.5rem;
+  background-color: #5a5a5a00;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+.Cv a {
+  width: 50%; /* occupy exactly half the viewport */
+  text-align: center; /* center the lines inside */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem; /* valid unit */
+  color: #fff;
+  background-color: rgba(90, 90, 90, 0);
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin: 10px auto;
 }
