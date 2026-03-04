@@ -4,43 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>SimonFCO: Blog</title>
   </head>
-  <div class="header">
-    <header>
-      <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="mainCv.html">CV</a>
-        <a href="Portfolio.html">Portfölj</a>
-        <a class="active" href="TooBeWorkedOn.html">Blog</a>
-        <a href="Credits.html">Credits</a>
-      </div>
-    </header>
-  </div>
   <body>
-    <div class="Blog">
-      <h1>Day 2026-02-23</h1>
-      <h2>Tredje blog posten</h2>
-      <br /><br />
-      <a> Tredje blog-posten, detta är typ bara ett test för att vissa att det fungerar :)</a>
-    </div>
-    <div class="Blog">
-      <h1>Day 2026-02-23</h1>
-      <h2>Andra blog posten</h2>
-      <br /><br />
-      <a> Andra blog-posten, detta är typ bara ett test för att vissa att det fungerar :)</a>
-    </div>
-    <div class="Blog">
-      <h1>Day 2026-02-23</h1>
-      <h2>Första blog posten</h2>
-      <br /><br />
-      <a> Första blog-posten, detta är typ bara ett test för att vissa att det fungerar :)</a>
-    </div>
-    
+    <header class="header">
+      <nav class="topnav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mainCv.html">CV</a></li>
+          <li><a href="Portfolio.html">Portfölj</a></li>
+          <li>
+            <a class="active" aria-current="page" href="TooBeWorkedOn.html"
+              >Blog</a
+            >
+          </li>
+          <li><a href="Credits.html">Credits</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="visually-hidden">Blog</h1>
+      <article class="Blog">
+        <header>
+          <time datetime="2026-02-23" class="date">2026-02-23</time>
+          <h2>Tredje blog posten</h2>
+        </header>
+        <p>
+          Tredje blog-posten, detta är typ bara ett test för att visa att det
+          fungerar :)
+        </p>
+      </article>
+      <article class="Blog">
+        <header>
+          <time datetime="2026-02-23" class="date">2026-02-23</time>
+          <h2>Andra blog posten</h2>
+        </header>
+        <p>
+          Andra blog-posten, detta är typ bara ett test för att visa att det
+          fungerar :)
+        </p>
+      </article>
+      <article class="Blog">
+        <header>
+          <time datetime="2026-02-23" class="date">2026-02-23</time>
+          <h2>Första blog posten</h2>
+        </header>
+        <p>
+          Första blog-posten, detta är typ bara ett test för att visa att det
+          fungerar :)
+        </p>
+      </article>
+    </main>
+
     <footer>
       <div class="botfoot">
-        <a>Version 1.0.1</a>
-        <a>Created by SimonFCO</a>
+        <p>Version 1.0.1</p>
+        <p>Created by SimonFCO</p>
       </div>
     </footer>
   </body>
