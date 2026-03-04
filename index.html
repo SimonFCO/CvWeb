@@ -4,56 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>SimonFCO: Website</title>
   </head>
-  <div class="header">
-    <header>
-      <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="mainCv.html">CV</a>
-        <a href="Portfolio.html">Portfölj</a>
-        <a href="TooBeWorkedOn.html">Blog</a>
-        <a href="Credits.html">Credits</a>
-      </div>
-    </header>
-  </div>
   <body>
-    <div class="Profile">
-      <div class="ProfilePic">
-        <img class="img" src="hSimon.jpg" />
-        <h1>Simon</h1>
-        <h2>SimonFCO</h2>
-        <h3>I make stuff</h3>
-      </div>
-      <div class="AboutMe">
-        <div class="imgWrapper">
-          <img
-            class="rat"
-            src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTdtdjZvMG56ajBsN3c2cGYxeGZjN3N1aHowcmEwbHV3MmRqcW1neSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xVcuKW2a4s4XQe7wtl/giphy.gif"
-            width="250"
-            height="auto"
-          />
+    <header class="header">
+      <nav class="topnav">
+        <ul>
+          <li>
+            <a class="active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li><a href="mainCv.html">CV</a></li>
+          <li><a href="Portfolio.html">Portfölj</a></li>
+          <li><a href="TooBeWorkedOn.html">Blog</a></li>
+          <li><a href="Credits.html">Credits</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="Profile">
+        <div class="ProfilePic">
+          <img class="img" src="hSimon.jpg" alt="Porträtt av Simon" />
+          <h1>Simon</h1>
+          <h2>SimonFCO</h2>
+          <h3>I make stuff</h3>
         </div>
-        <br /><br />
-        <h1>Hi There</h1>
-        <h2>I try to make working code :)</h2>
-        <br /><br />
+        <div class="AboutMe">
+          <div class="imgWrapper">
+            <img
+              class="rat"
+              src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTdtdjZvMG56ajBsN3c2cGYxeGZjN3N1aHowcmEwbHV3MmRqcW1neSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xVcuKW2a4s4XQe7wtl/giphy.gif"
+              width="250"
+              height="auto"
+              alt="Dansande råtta GIF"
+            />
+          </div>
 
-        <a
-          >Tjenare! Jag är en 21 år gammal student som håller just nu på att
-          studera systemutveckling vid Campus Varberg. <br /><br />
-          Jag gillar att testa runt med olika programmerings språk och andra
-          digitala verktyg som för att skapa olika program. <br /><br />
-          Jag har gjort ett flertal små spel med unity och har mycket kunskap i
-          andra grafiska prgoram som photoshop, blender och aseprite.
-        </a>
-      </div>
-    </div>
+          <h2>Hi there</h2>
+          <p>I try to make working code :)</p>
 
+          <p>
+            Tjenare! Jag är en 21 år gammal student som håller just nu på att
+            studera systemutveckling vid Campus Varberg.
+          </p>
+          <p>
+            Jag gillar att testa runt med olika programmerings språk och andra
+            digitala verktyg som för att skapa olika program.
+          </p>
+          <p>
+            Jag har gjort ett flertal små spel med unity och har mycket kunskap
+            i andra grafiska program som photoshop, blender och aseprite.
+          </p>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="botfoot">
-        <a>Version 1.0.1</a>
-        <a>Created by SimonFCO</a>
+        <p>Version 1.0.1</p>
+        <p>Created by SimonFCO</p>
       </div>
     </footer>
   </body>
