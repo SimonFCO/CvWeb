@@ -1,0 +1,22 @@
+{
+  "Education": [
+    {
+      "School": "LBS Varberg",
+      "Class": "Spelutveckling",
+      "Timespan": "Augusti 2021 - juni 2024"
+    },
+    {
+      "School": "Campus Varberg",
+      "Class": "Systemutveckling",
+      "Timespan": "2025 - nu"
+    }
+  ],
+
+  "Work": [
+    {
+      "Company": "Uf företag",
+      "Position": "VD",
+      "Description": "Jag var vd för en uf företag med 6 andra personer. Vi köpte produkter från second hands och sålde dom för mer än vad vi köpte dom för."
+    }
+  ]
+}
