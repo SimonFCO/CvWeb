@@ -200,9 +200,13 @@ footer {
   font-size: 1rem;
   padding: 1.5rem;
   border: 1.2px solid #4e4e4e;
-  border-radius: 81px;
+  border-radius: 11px;
   box-sizing: border-box;
   margin-right: clamp(1.5rem, 15vw, 18.5rem);
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
 }
 
 .img {
