@@ -29,6 +29,12 @@
 
     <main>
       <h1 class="visually-hidden">Portfölj</h1>
+      <section class="github-projects">
+        <h2>Dina publika GitHub-projekt</h2>
+        <p id="githubStatus">Laddar projekt från GitHub...</p>
+        <div id="githubProjects" class="project-grid"></div>
+      </section>
+
       <article class="Portfolio cppImg">
         <figure>
           <img
@@ -90,6 +96,12 @@
           </div>
         </div>
       </article>
+      <div id="easterEggModal" class="modal-overlay">
+        <div class="modal-content">
+          <h1>Good luck</h1>
+          <button id="closeModalBtn">Close</button>
+        </div>
+      </div>
     </main>
 
     <footer>
@@ -98,5 +110,7 @@
         <p>Created by SimonFCO</p>
       </div>
     </footer>
+    <script src="Js/portfolio.js"></script>
+    <script src="Js/Eastereggs.js"></script>
   </body>
 </html>
