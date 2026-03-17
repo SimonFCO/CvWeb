@@ -1,11 +1,7 @@
 async function loadCvData() {
   try {
     const response = await fetch("JsonData/WorkEducationHistory.json");
-    if (!response.ok) {
-      throw new Error(`Could not load JSON: ${response.status}`);
-    }
     const data = await response.json();
-
 
     const educationList = document.getElementById("educationList");
     educationList.innerHTML = "";

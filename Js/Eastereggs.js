@@ -12,7 +12,7 @@ if (rat) {
   rat.addEventListener("click", function () {
     let intervalId = setInterval(() => {
       document.body.style.backgroundColor = getRandomColor();
-    }, 750);
+    }, 500);
 
     setTimeout(() => {
       clearInterval(intervalId);
